@@ -58,6 +58,11 @@ header h1 {
   margin-right: 30px;
 }
 
+#play-circle:hover {
+  color: #f76b1e;
+  cursor: pointer;
+}
+
 .header-articles {
   text-align: center;
   margin-top: 8%;
@@ -80,7 +85,7 @@ header article i {
 
 header article:hover {
   border-bottom: 10px solid #f76b1e;
-  cursor: default;
+  cursor: pointer;
 }
 
 /*Header - end*/
@@ -299,3 +304,5 @@ footer p {
   width: 250px;
   color: #98989b;
 }
+
+/*Footer - end*/
