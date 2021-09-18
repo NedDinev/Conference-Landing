@@ -1,0 +1,301 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+/*Header - start*/
+
+header {
+  background: linear-gradient(rgba(54, 55, 73, 0.8), rgba(54, 55, 73, 0.8)),
+    url(img/header-bg.png);
+  background-size: cover;
+  width: 100%;
+
+  color: #ffffff;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-weight: 800;
+  padding: 20px;
+  float: left;
+}
+
+nav {
+  float: right;
+  padding-top: 32px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 20px;
+  color: #ffffff;
+}
+
+nav ul li a:hover {
+  color: #f76b1e;
+}
+
+header h1 {
+  text-align: left;
+  font-weight: normal;
+  display: inline-block;
+  width: 550px;
+  margin-top: 15%;
+  margin-left: 25%;
+  margin-right: 30px;
+}
+
+.header-articles {
+  text-align: center;
+  margin-top: 8%;
+}
+
+header article {
+  display: inline-block;
+  width: 16%;
+  height: 200px;
+  text-align: left;
+  vertical-align: top;
+  margin-left: 15px;
+  margin-right: 15px;
+  border: 10px solid transparent;
+}
+
+header article i {
+  margin-bottom: 30px;
+}
+
+header article:hover {
+  border-bottom: 10px solid #f76b1e;
+  cursor: default;
+}
+
+/*Header - end*/
+
+/*Main - start*/
+
+.introduction .quote {
+  display: inline-block;
+  width: 240px;
+  text-align: right;
+  vertical-align: top;
+  margin: 7% 5% 0 25%;
+}
+
+.quote h2 {
+  margin-bottom: 50px;
+}
+.quote p {
+  text-transform: capitalize;
+}
+
+main .introduction article {
+  display: inline-block;
+  width: 290px;
+  margin: 5% 5% 4% 0;
+}
+
+main .introduction article hr {
+  margin: 40px 0;
+}
+
+main .introduction img {
+  width: 340px;
+}
+
+.orange-recrangle {
+  width: 530px;
+  height: 550px;
+  background: #f76b1e;
+  opacity: 70%;
+  position: absolute;
+  top: 750px;
+  right: 2px;
+}
+
+.schedule {
+  background: #3c3e4a;
+  color: #ffffff;
+}
+
+.schedule h2 {
+  width: 430px;
+  padding-top: 2%;
+  padding-left: 20%;
+  margin-bottom: 4%;
+}
+
+.schedule div {
+  display: inline-block;
+  margin-left: 20%;
+}
+
+.schedule p {
+  display: inline-block;
+  text-transform: capitalize;
+  margin-bottom: 100px;
+}
+
+.schedule p span {
+  font-weight: bold;
+}
+
+.schedule div i {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background: #f76b1e;
+  padding: 18px;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.speakers h2 {
+  font-weight: 800;
+  width: 350px;
+  display: inline-block;
+  margin-top: 3%;
+  margin-left: 22%;
+  margin-right: 10%;
+}
+
+.speakers > p {
+  width: 550px;
+  display: inline-block;
+  vertical-align: 25px;
+}
+
+.speakers .first-line,
+.second-line {
+  text-align: center;
+}
+.speakers .first-line div,
+.second-line div {
+  display: inline-block;
+  text-align: left;
+  width: 300px;
+  margin: 30px;
+  box-shadow: 10px 10px 15px -5px rgba(0, 0, 0, 0.25);
+}
+
+.speakers div h4 {
+  display: inline-block;
+  text-transform: capitalize;
+  font-weight: 900;
+  padding-left: 20px;
+}
+
+.speakers div a {
+  color: #000000;
+}
+
+#github-icon {
+  font-size: 18px;
+}
+
+#github-icon:hover {
+  color: #f76b1e;
+  cursor: pointer;
+}
+
+.speakers div p {
+  text-transform: uppercase;
+  color: #f76b1e;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.special-events {
+  background: #3c3e4a;
+  color: #ffffff;
+  text-align: center;
+}
+
+.newsletter {
+  display: inline-block;
+  border: 1px solid #ffffff;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.newsletter h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 20%;
+  margin-bottom: 15%;
+}
+
+.newsletter p {
+  margin-bottom: 20%;
+  width: 320px;
+}
+
+input[type="email"] {
+  background-color: #3c3e4a;
+  border: none;
+  border-bottom: 3px solid #f76b1e;
+  margin-bottom: 20%;
+  width: 140px;
+}
+
+input[type="email"]::placeholder {
+  color: #ffffff;
+}
+input[type="email"]:focus {
+  outline: none;
+}
+
+input[type="submit"] {
+  background-color: #f76b1e;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  width: 110px;
+  height: 30px;
+  text-transform: uppercase;
+  margin-left: 15%;
+}
+
+input[type="submit"]:hover {
+  background-color: #333333;
+  cursor: pointer;
+}
+
+/*Main - end*/
+
+/*Footer - start*/
+
+footer {
+  background: #333333;
+  color: #ffffff;
+  width: 100%;
+  height: 60px;
+}
+
+footer h5 {
+  float: left;
+  text-transform: uppercase;
+  margin-left: 30px;
+  margin-top: 25px;
+}
+
+footer p {
+  float: right;
+  text-transform: uppercase;
+  width: 250px;
+  color: #98989b;
+}
